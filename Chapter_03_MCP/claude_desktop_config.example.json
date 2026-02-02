@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "sqlite-leads": {
+            "command": "REPLACE_WITH_YOUR_PYTHON_PATH",
+            "args": [
+                "REPLACE_WITH_YOUR_MAIN_PY_PATH"
+            ]
+        }
+    }
+}
