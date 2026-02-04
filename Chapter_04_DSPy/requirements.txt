@@ -1,0 +1,7 @@
+# DSPy Lead Assessment Pipeline - Dependencies
+# The Senior Agent Blueprint - Chapter 04
+
+dspy-ai>=2.4.0
+pydantic>=2.0.0
+openai>=1.0.0
+python-dotenv>=1.0.0
