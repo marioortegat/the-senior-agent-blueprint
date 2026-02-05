@@ -1,0 +1,19 @@
+# Modular Memory Engine - Dependencies
+# The Senior Agent Blueprint - Chapter 05
+
+# Vector Database
+chromadb>=0.4.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+openai>=1.0.0
+
+# Data Validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# PDF Processing
+PyPDF2>=3.0.0

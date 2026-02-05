@@ -11,9 +11,10 @@ This repository contains the source code, n8n workflows (JSON), and Python scrip
 | Chapter | Description | Status |
 |---------|-------------|--------|
 | [Chapter 03: MCP Server](./Chapter_03_MCP) | A production-ready Model Context Protocol server using SQLite and FastMCP | Available |
-| Chapter 04: DSPy Optimization | Prompt optimization with DSPy framework | Coming Soon |
-| Chapter 05: Multi-Agent Orchestration | Coordinating multiple specialized agents | Coming Soon |
-| Chapter 06: Router Architecture | Intelligent request routing patterns | Coming Soon |
+| [Chapter 04: DSPy Optimization](./Chapter_04_DSPy) | Prompt optimization with DSPy framework - Typed Predictors & Portable Prompts | Available |
+| [Chapter 05: Memory Engine](./Chapter_05_Memory) | Modular vector memory system with ChromaDB | Available |
+| Chapter 06: Multi-Agent Orchestration | Coordinating multiple specialized agents | Coming Soon |
+| Chapter 07: Router Architecture | Intelligent request routing patterns | Coming Soon |
 
 ## Getting Started
 
