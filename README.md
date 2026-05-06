@@ -15,6 +15,7 @@ This repository contains the source code, n8n workflows (JSON), and Python scrip
 | [Chapter 05: Memory Engine](./Chapter_05_Memory) | Modular vector memory system with ChromaDB | Available |
 | [Chapter 06: Semantic Router](./Chapter_06_Semantic_Router) | Intelligent request routing and Semantic Firewall | Available |
 | [Chapter 07: Agentic Patterns](./Chapter_07_Agentic_Patterns) | State Graph Engineering, Reflection, and Human-in-the-Loop | Available |
+| [Chapter 08: Monitoring & Evals](./Chapter_08_Monitoring_Evals) | Tracing (Langfuse), Batch Scoring (RAGAS), PII Security (Presidio), and Intent Clustering | Available |
 
 ## Getting Started
 
@@ -33,10 +34,16 @@ This repository contains the source code, n8n workflows (JSON), and Python scrip
 
 ## Prerequisites
 
-- Python 3.10+
+- Python 3.10+ (Tested extensively on Python 3.12)
 - Node.js 18+ (for n8n)
 - n8n (self-hosted or cloud)
 - Basic understanding of AI agents and LLMs
+
+## 🔧 Environment & Compatibility Notes
+
+The AI engineering ecosystem (Langchain, Langfuse, RAGAS, etc.) evolves at a very rapid pace. To guarantee 100% stability and local execution compatibility across OS environments:
+- **Strict Version Pinning:** The `requirements.txt` files inside each chapter contain strictly pinned versions. For example, Chapter 08 aligns `langfuse<3.0.0` with `langchain==0.2.x` and `ragas==0.1.19` to ensure smooth integration with lightweight Docker instances.
+- **OS Compatibility:** Code has been patched and tested to run smoothly on Windows (e.g., forcing `utf-8` stdout encodings to prevent PowerShell emoji crashes) as well as macOS/Linux.
 
 ## Get the Book
 
